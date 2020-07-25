@@ -8,7 +8,8 @@ const ACTIONS = {
   ERROR: "error",
 };
 
-const URL = "https://jobs.github.com/positions.json";
+const URL =
+  "https://cors-anywhere.herokuapp.com/https://jobs.github.com/positions.json";
 
 function reducer(state, action) {
   switch (action.type) {
