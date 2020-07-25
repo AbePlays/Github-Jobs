@@ -7,7 +7,7 @@ function App() {
 
   return (
     <Container>
-      {loading & <h1>Loading...</h1>}
+      {loading && <h1>Loading...</h1>}
       {error && <h1>Error. Try reloading</h1>}
       <h1>{jobs.length}</h1>
     </Container>
